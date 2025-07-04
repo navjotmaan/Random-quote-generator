@@ -1,5 +1,5 @@
 # DevChallenges.io - Random Quote
-
+[click here to see the live demo](https://navjotmaan.github.io/Random-quote-generator/)
 ![Thumbnail for the Random Quote coding challenge](./thumbnail.jpg)
 
 ## Welcome! 👋

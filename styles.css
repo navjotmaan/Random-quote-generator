@@ -1,0 +1,64 @@
+body{
+    background-color: #111729;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-image: url('resources/bg-image-random-quote.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--background-quote);
+    color: #E3E8EF;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0), 286px 195px 138px 0px rgba(0, 0, 0, 0.01),
+  161px 110px 117px 0px rgba(0, 0, 0, 0.05), 72px 49px 87px 0px rgba(0, 0, 0, 0.09),
+  18px 12px 48px 0px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+    --background-quote: #20293A;
+    --color-img: #4A5567;
+    --quote-button: #AEB0FF;
+    --text: #E3E8EF;
+    --header-color: #111729;
+    --link-footer: #284bce;
+
+}
+
+.btn1{
+    border-radius: 20px;
+    padding: 8px;
+    border: 2px solid var(--quote-button);
+    color: var(--quote-button);
+    background-color: var(--background-quote);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: var(--background-quote);
+    color: var(--text);
+    padding: 5px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+p{
+    margin-top: 50px;
+    font-size: 25px;
+}
